@@ -28,6 +28,6 @@ jobs:
       - run : npm ci
       - run : git config user.name "dylanshi" && git config user.email "dylanshipf@gmail.com" 
       - run : npm run deploy
-        env:
-          GH_TOKEN: ${{secrets.SECRET_GITHUB_TOKEN}}
+        env :
+          GH_TOKEN : ${{secrets.SECRET_GITHUB_TOKEN}}
       - run : echo Hello, world! 

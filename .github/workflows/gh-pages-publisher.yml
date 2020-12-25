@@ -30,4 +30,3 @@ jobs:
       - run : npm run deploy
         env:
           GH_TOKEN: ${{secrets.SECRET_GITHUB_TOKEN}}
-      - run : echo Hello, world!

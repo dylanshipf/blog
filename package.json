@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/a602123/blog.git"
+    "deploy": "gatsby build && gh-pages -d public -r https://3b62553b8a70760e5d5ec5e5aec45c5519ad0c45@github.com/a602123/blog.git"
   },
   "license": "0BSD",
   "dependencies": {
